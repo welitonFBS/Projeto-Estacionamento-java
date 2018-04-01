@@ -2,21 +2,21 @@ import java.util.Scanner;
 
 public class Estacionamento {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     //id 1 = Entrada de veículos
     //id 2 = Saída de veículos
     //Valor por hora = R$6,00
       
       
-	//Vai ser entrada ou Saída?  
+    //Vai ser entrada ou Saída?  
     System.out.println("Entre com uma ID:");
     id = sc.nextInt();
     	if (id < 1 || id > 2) {
         	System.out.println("Entre com uma ID válida!");
         
           
-		//Entrada de veículos       
+       //Entrada de veículos       
         } else if (id == 1) {
           System.out.println("CPF SEM PONTOS, TRAÇOS E ESPAÇOS:");
           int cpf1 = sc.nextInt();
